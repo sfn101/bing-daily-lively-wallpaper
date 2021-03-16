@@ -1,0 +1,45 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-color: darkslategrey;
+}
+button.btn {
+
+        color: white;
+    background-color: #222;
+    font-weight: bold;
+
+    border-radius: 15px;
+    border: none;
+    margin: 2px;
+    padding: 5px 10px;
+    transition: 0.5s;
+    
+}
+
+button.btn:hover{
+    color: #222;
+    background: white;
+    font-weight: bold;
+    font-size: 15px ;
+    border: gray solid 1px ;
+  
+    
+  
+}
+button:focus {
+   outline: none;
+   box-shadow: none;
+}
+
+button.pik{
+    color: crimson;
+    border: crimson solid 1px ;
+    font-size: 15px ;
+    font-weight: bold;
+}
+div.nav{
+    position: absolute;
+    bottom: 50px;
+    right: 5px;
+}
